@@ -38,8 +38,6 @@ func WithInstance(instance interface{}) (source.Driver, error) {
 		path:       bx.Path,
 	}
 
-	bx.List()
-
 	for _, fi := range bx.List() {
 		m, err := source.DefaultParse(fi)
 		if err != nil {
