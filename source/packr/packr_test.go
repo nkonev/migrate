@@ -1,7 +1,7 @@
 package packr
 
 import (
-	"github.com/gobuffalo/packr"
+	"github.com/gobuffalo/packr/v2"
 	"log"
 	"testing"
 
